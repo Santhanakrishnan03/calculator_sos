@@ -1,0 +1,35 @@
+<resources>
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+
+    <style name="CalcBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">26sp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Circle</item>
+    </style>
+
+    <style name="CalcBtn.Operator" parent="CalcBtn">
+        <item name="backgroundTint">#5E548E</item>
+        <item name="android:textColor">#E0B1CB</item>
+    </style>
+
+    <style name="CalcBtn.Number" parent="CalcBtn">
+        <item name="backgroundTint">#1B1B1B</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="CalcBtn.Equal" parent="CalcBtn">
+        <item name="backgroundTint">#BE97E8</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ShapeAppearance.Circle" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
